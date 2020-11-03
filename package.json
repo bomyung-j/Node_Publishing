@@ -1,0 +1,28 @@
+{
+  "name": "pub_node",
+  "version": "1.0.0",
+  "description": "pub tool",
+  "main": "./pubtool/app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bomyung-j/Node_Publishing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bomyung-j/Node_Publishing/issues"
+  },
+  "homepage": "https://github.com/bomyung-j/Node_Publishing#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.2",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1"
+  }
+}
